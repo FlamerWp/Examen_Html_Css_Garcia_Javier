@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Menú de navegación */
+nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #fff;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+/* Imagen del chef */
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Logotipo y frase */
+.text-container {
+    padding: 40px;
+}
+
+.text-container img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    margin-top: 6%;
+    font-family: "Fleur De Leah", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 180%;
+}
